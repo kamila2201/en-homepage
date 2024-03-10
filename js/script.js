@@ -2,8 +2,6 @@ const welcome = () => {
     console.log("Hello everyone!");
 }
 
-const button = document.querySelector(".js-button");
-
 const toggleBackground = () => {
     const body = document.querySelector(".js-body");
     const themeName = document.querySelector(".js-themeName");
@@ -15,7 +13,11 @@ const toggleBackground = () => {
         : "color";
 };
 
+const init = () => {
+    const button = document.querySelector(".js-button");
+    button.addEventListener("click", toggleBackground);
+    
+    welcome(); 
+}
 
-
-button.addEventListener("click", toggleBackground);
-welcome();
+init();
