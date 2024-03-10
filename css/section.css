@@ -32,10 +32,9 @@
     color: white;
     background-color: #668f8c;
     padding: 15px;
-    margin-top: 10px;
+    margin: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    margin-left: 10px;
     cursor: pointer;
     border-radius: 10px
 }
