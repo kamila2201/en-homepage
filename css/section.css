@@ -16,12 +16,14 @@
 }
 
 .section__header {
+    text-transform: uppercase;
     color: #668f8c;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
 
 .section__subHeader {
+    text-transform: uppercase;
     color: rgb(50, 77, 75);
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
