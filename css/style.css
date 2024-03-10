@@ -7,11 +7,9 @@ html {
 }
 
 .body {
-    
     margin: 0;
     line-height: 1.5;
     background-image: url("../images/background.jpg");
-    /* background-size: cover; */
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
