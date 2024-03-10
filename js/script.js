@@ -1,5 +1,6 @@
-console.log("Hello everyone!");
-
+const welcome = () => {
+    console.log("Hello everyone!");
+}
 
 const button = document.querySelector(".js-button");
 
@@ -14,5 +15,7 @@ const toggleBackground = () => {
         : "color";
 };
 
-button.addEventListener("click", toggleBackground);
 
+
+button.addEventListener("click", toggleBackground);
+welcome();
