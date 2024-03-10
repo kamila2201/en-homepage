@@ -1,10 +1,12 @@
 console.log("Hello everyone!");
 
-const body = document.querySelector(".js-body");
+
 const button = document.querySelector(".js-button");
-const themeName = document.querySelector(".js-themeName");
 
 const toggleBackground = () => {
+    const body = document.querySelector(".js-body");
+    const themeName = document.querySelector(".js-themeName");
+
     body.classList.toggle("body--color");
 
     themeName.innerText = body.classList.contains("body--color")
