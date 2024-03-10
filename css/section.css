@@ -1,0 +1,45 @@
+.section {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.section__interestingElement {
+    color: rgb(104, 10, 96);
+}
+
+.section__photo {
+    -webkit-box-shadow: 43px -36px 0px 3px #668f8c;
+    -moz-box-shadow: 43px -36px 0px 3px #668f8c;
+    box-shadow: 43px -36px 0px 3px #668f8c;
+    border-radius: 10px;
+}
+
+.section__header {
+    color: #668f8c;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.section__subHeader {
+    color: rgb(50, 77, 75);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.section__button {
+    border: none;
+    color: white;
+    background-color: #668f8c;
+    padding: 15px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+.section__button:hover {
+    background-color:rgb(80, 118, 116)
+}

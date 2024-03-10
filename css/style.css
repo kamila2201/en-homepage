@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    
+    margin: 0;
+    line-height: 1.5;
+    background-image: url("../images/background.jpg");
+    /* background-size: cover; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.body--color {
+    background-color: rgb(50, 77, 75);
+    background-image: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'500,
+        'GRAD'0,
+        'opsz'24
+}
+
+
+
+
+
+

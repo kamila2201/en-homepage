@@ -1,0 +1,23 @@
+.header {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header__title {
+    color: rgb(50, 77, 75);
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.header__link {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.header__link:hover {
+    font-size: 45px;
+    color: rgb(50, 77, 75);
+}
