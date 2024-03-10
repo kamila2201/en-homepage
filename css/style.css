@@ -12,6 +12,7 @@ html {
     background-image: url("../images/background.jpg");
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+    text-align: justify;
 }
 
 .body--color {
